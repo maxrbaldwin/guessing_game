@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600|Roboto+Slab:400,100,300);
+
+/* Universal */
+body {
+    background-color: #FCFCFC;
+}
+/* Fonts */
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+p, a, span, button, form {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+/* Game */
+.game-con {
+    width: 30%;
+    margin: 0px 35%;
+    padding: 10px;
+    text-align: center;
+}
+.game-title, .game-form .group-1 {
+    margin-bottom: 20px;
+}
+.game-footer {
+    margin-top: 20px;
+}
+
+/* Bootstrap overrides */
+.game-con button, .game-con input, .game-con .input-group-addon {
+    border-radius: 0px;
+}
+.game-con .input-group-addon {
+    background-color: transparent;
+}
+.game-con .form-control:focus {
+    border-color: #B80000;
+    box-shadow: inset 0 0px 0px rgba(184, 0, 0, 1);
+}
+.game-con .btn-default:hover {
+    background-color: #B80000;
+}
