@@ -20,20 +20,26 @@
                             <div class="input-group-addon">#</div>
                             <input type="text" class="game-input form-control" placeholder="Input number 1-100">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="guess-btn btn btn-default">Submit</button>
                     </div>
                 </form>
             </div>
             <div class="game-footer">
-                <button class="btn btn-default">Play Again</button>
+                <button class="play-again-btn btn btn-default">Play Again</button>
                 <button class="btn btn-default">Give Me A Hint</button>
             </div>
             <div class="game-message">
-                <h2>5 Guesses Remaining</h2>
+                <h2><span class="remaining"></span> Guesses Remaining</h2>
+            </div>
+            <div class="current-status">
+                <img src="#"/>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="js/libs/jQuery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
 </body>
 
 </html>
