@@ -26,13 +26,56 @@
             </div>
             <div class="game-footer">
                 <button class="play-again-btn btn btn-default">Play Again</button>
-                <button class="btn btn-default">Give Me A Hint</button>
+                <button class="hint-btn btn btn-default">Give Me A Hint</button>
             </div>
             <div class="game-message">
                 <h2><span class="remaining"></span> Guesses Remaining</h2>
             </div>
             <div class="current-status">
-                <img src="#"/>
+                <h2></h2>
+            </div>
+            <div class="user-guesses">
+                <h2>Your Guesses:</h2>
+                <ul class="guess-list"></ul>
+            </div>
+            <div class="hint">
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loser-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2>Sorry! You Lose!</h2>
+                    <img src="http://community.skype.com/skypec/attachments/skypec/Windows/310234/1/loser.gif" class="loser-image message-image">
+                    <button class="play-again-btn btn btn-default">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="winner-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2>You Win!</h2>
+                    <img src="http://media.giphy.com/media/EWWdvQngcLt6g/giphy.gif" class="winner-image message-image">
+                    <button class="play-again-btn btn btn-default">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="first-time-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2>First Time!</h2>
+                    <img src="http://www.fixmood.com/wp-content/uploads/2012/12/first-winner-who-wants-to-be-a-millionaire.jpg" class="first-time-image message-image">
+                    <button class="play-again-btn btn btn-default">Play Again</button>
+                </div>
             </div>
         </div>
     </div>
